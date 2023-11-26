@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6ecf1;
+  color: #186266;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #186266;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #186266;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #186266;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.codeInputCell {
+  width: 20px;
+  height: 40px;
+  border: 2px solid #186266;
+  border-radius: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 2px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.name-inputs {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-inputs input {
+  margin-bottom: 10px;
+}
+
+/* Add other styles as needed */
